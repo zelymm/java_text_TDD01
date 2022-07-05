@@ -18,6 +18,13 @@ public class AppTest {
 
         assertEquals(40, rs);
     }
+
+    @Test
+    public void addThree() {
+        int rs = Calculator.add("10 + 10");
+
+        assertEquals(20, rs);
+    }
 }
 
 
